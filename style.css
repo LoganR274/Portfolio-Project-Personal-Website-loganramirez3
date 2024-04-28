@@ -1,0 +1,81 @@
+footer{
+  background-color: #F5960C;
+  width: 100%;
+}
+
+span{
+  color: #74ee15;
+}
+
+p, h1{
+  font-family: "Share Tech", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+a{
+    transition-duration: all 0.3s linear;
+  background: none;
+}
+
+a:hover{
+    
+  background: #F5960C;
+}
+
+i{
+    transition-duration: all 0.3s linear;
+  background: none;
+  height: 60px;
+  width: 60px;
+  margin: auto;
+}
+
+i:hover{
+  background-color: #0cf596; 
+  transition-duration: 0.3s;
+}
+
+.profileimg{
+  height: 150px;
+  width: 180px;
+  border-radius: 50%;
+  border: 10px solid #0cf596;
+  background-size: cover;
+}
+
+.dualScreenImg{
+  height: 200px;
+  width: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.skillsImg{
+  height: 80px;
+  width: 80px;
+}
+
+.div1{
+  min-height: 500px;
+  max-height: 1200px;
+  width: 100%;
+}
+
+.box{
+  width: 400px;
+  min-height: 200px;
+  max-height: 800px;
+}
+
+.carousel-inner .item{
+    height: 100%;
+}
+.carousel-inner .item img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
